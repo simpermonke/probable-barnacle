@@ -42,6 +42,10 @@ class pianoGUI(Frame):
         self.button4A = Button(master, bg = "black", width = 4, height = 9)
         self.button4A.pack()
         self.button4A.place(x=490, y=140)
+        self.buttonthing = Button(master, bg = "black", width = 150, height =2)
+        self.buttonthing.pack()
+        self.buttonthing.place(x = 0, y = 125)
+
 
         
 window = Tk()
